@@ -119,6 +119,14 @@ address {
 .main-page {
   background-color: #2e2f42;
   padding: 188px 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/people-office\ 1.jpg);
 }
 
 .main-page-title {
@@ -148,6 +156,7 @@ address {
   border-radius: 4px;
   display: block;
   margin: 0 auto;
+  margin-top: 64px;
 }
 
 .main-page-button:hover,
@@ -169,11 +178,20 @@ address {
   overflow: hidden;
 }
 
+.utility-icon {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  max-width: 100%;
+  margin-bottom: 8px;
+}
+
 .utility-link {
   flex-basis: calc((100% - 3 * 24px) / 4);
-  /* display: flex;
-  gap: 8px;
-  flex-direction: column; */
 }
 
 .utility-list {
@@ -247,6 +265,36 @@ address {
   color: #434455;
   text-align: center;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.team-icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-link,
+.footer-link {
+  display: flex;
+  fill: #f4f4fd;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-icon {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-icon:hover,
+.team-icon:focus {
+  background-color: #404bbf;
 }
 
 .our-portfolio-title {
@@ -296,8 +344,13 @@ address {
 
 .footer {
   background-color: #2e2f42;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
+}
+
+.footer .container {
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
 }
 
 .logo-span {
@@ -328,4 +381,39 @@ address {
   font-weight: 700;
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.footer-soc-media {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.fsm-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-icon {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #f4f4fd;
+}
+
+.footer-icon:hover,
+.footer-icon:focus₴ {
+  background-color: #31d0aa;
 }
