@@ -179,7 +179,7 @@ address {
   border-radius: 4px;
   display: block;
   margin: 0 auto;
-  margin-top: 64px;
+  margin-top: 48px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -356,7 +356,6 @@ address {
 }
 
 .portfolio-block {
-  display: inline-block;
   position: relative;
   overflow: hidden;
 }
